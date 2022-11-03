@@ -1,8 +1,5 @@
 //👉 Write your tests below here:
 
-//return correct number of jumps
-//return array containing correct number of bananas as separate strings
-
 import bananas from "./main"
 
 test("Number of minimum jumps matches number of 'banana' strings in array returned", () => {
