@@ -20,11 +20,11 @@ NO!        ├─────► OK! 🌳 2
 
 */
 
-
 //👉 Write the function your CodeWarriors will start with below here:
 
-
-
 export default function bananas(start, finish) {
-    //write your code here!
+  const distanceToJump = finish - start;
+  return Array(Math.floor(distanceToJump / 3) + (distanceToJump % 3))
+    .fill(0)
+    .map((e) => "banana");
 }
